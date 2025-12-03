@@ -1,7 +1,7 @@
 #!/bin/bash
 Date=$(date)
 START_TIME=$(date +%s)
-slee 20
+sleep 20
 END_TIME=$(date +%s)
 
 TOTAL_TIME=$(($END_TIME-$START_TIME))
